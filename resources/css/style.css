@@ -1,0 +1,124 @@
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}  
+
+header {
+  margin : 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  flex-direction: row;
+  justify-content: right;
+  background-image: url("../images/img-tea-cozy-logo.png");
+  background-repeat: no-repeat;
+  background-size: auto 50px;
+  background-position: 10px;
+}
+
+nav ul{
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: seashell;
+  text-align: right;
+  padding: 20px;
+  text-decoration: underline;
+}
+
+#main{
+  background-image: url("../images/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 69px;
+}
+
+#mission{
+  background-color: black;
+  width: 1200px;
+  height: auto;
+}
+
+#feature{
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+#menu{
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.pic {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+.item {
+  margin: 20px;
+}
+
+#locations {
+  background-image: url("../images/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  height: 575px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+}  
+
+#addresses {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.address {
+  display: block;
+  width: 300px;
+  opacity: 1;
+  background-color: black;
+  line-height: 50px;
+}
+
+#contact {
+  height: 200px;
+}
+
+footer {
+  text-align: left;
+  margin-left: 20px;
+} 
+
